@@ -1,0 +1,23 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="upload.css">
+	<script type="text/javascript" src="upload.js"></script>
+</head>
+
+<body>
+
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+		<label class="button choose">
+			选择文件
+			<input type="file" accept="audio/*" name="file" id="file" onchange="javascript:uploadfile()" style="display: none" />
+		</label>
+		<br />
+		<div id="filename"></div>
+		<!--<input type="submit" name="submit" value="上传" class="button click" style="" />-->
+		<input type="submit" name="submit" value="上传" class="button click" />
+	</form>
+
+</body>
+</html>

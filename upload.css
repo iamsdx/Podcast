@@ -1,0 +1,22 @@
+.button
+    {
+    cursor: pointer;
+	width: 100px;
+    height: 30px;
+    border-radius:5px;
+    border: none;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    }
+.choose
+    {
+	position: absolute;
+    background-color: #508EF2;
+    }
+.click
+    {
+    margin: 50px 0 0 0;
+    background-color: #239F5F;
+    }
